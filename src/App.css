@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset e fonte global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff7fa; /* fundo rosinha claro */
+  color: #3d0d1f;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #fbcfe8, #f9a8d4);
+  color: #3d0d1f;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Links do menu */
+header nav a {
+  transition: color 0.2s, transform 0.2s;
+}
+header nav a:hover {
+  color: #9d174d;
+  transform: scale(1.1);
+}
+
+/* Banner */
+section {
+  transition: all 0.3s ease-in-out;
+}
+section h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #9d174d;
+}
+
+/* Cards de produtos */
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Botões (se quiser adicionar futuramente) */
+button {
+  background: #f472b6;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #db2777;
+}
+
+/* Rodapé */
+footer {
+  background: #fbcfe8;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
