@@ -15,9 +15,9 @@ export default function Footer() {
         {/* Coluna 2 */}
         <div>
           <h3 className="font-bold text-yellow-950 text-lg mb-2">Contato</h3>
-          <p className="text-yellow-950">📧 contato@meireleneatelie.com</p>
-          <p className="text-yellow-950">📱 (11) 99999-9999</p>
-          <p className="text-yellow-950">📍 São Paulo - SP</p>
+          <p className="text-yellow-950">contato@meireleneatelie.com</p>
+          <p className="text-yellow-950">(16) 99608-3425</p>
+          <p className="text-yellow-950">Ribeirão Preto - SP</p>
         </div>
 
         {/* Coluna 3 */}
