@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import Loader from "../components/Loader";
 
 export default function Home() {

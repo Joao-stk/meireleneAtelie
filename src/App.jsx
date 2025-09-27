@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 // Layout com header e footer
 function Layout() {
