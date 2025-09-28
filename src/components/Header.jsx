@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="bg-gradient-to-r from-rose-50 to-rose-100 shadow-md p-4 flex items-center">
       <Link to={"/"}>
-      <img src={uteis.imgLogo} alt="logo" className="h-12" />
+      <img src={logo} alt="logo" className="h-12" />
       <h2 className="text-yellow-950">Meirelene Atêlie</h2> 
       </Link>
       <nav className="flex gap-3 right-0 ml-auto">
