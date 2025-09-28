@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   if (loading) {
-    return <Loader />; // mostra tela de carregamento
+    return <Loader />; 
   }
 
   return (

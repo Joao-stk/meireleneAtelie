@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import { uteis } from "../data/uteis";
+
+const imgLogo = "/src/assets/logo.png"
 
 export default function Header() {
   return (
     <header className="bg-gradient-to-r from-rose-50 to-rose-100 shadow-md p-4 flex items-center">
       <Link to={"/"}>
-      <img src="/src/assets/logo.png" alt="logo" className="h-12" />
+      <img src={imgLogo} alt="logo" className="h-12" />
       <h2 className="text-yellow-950">Meirelene Atêlie</h2> 
       </Link>
       <nav className="flex gap-3 right-0 ml-auto">
@@ -26,7 +29,7 @@ export default function Header() {
           </button>
         </Link>
       </nav>
-      <Link to="https://wa.me/5516996083425" target="_blank" rel="noreferrer noopener" class="fixed bottom-4 right-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">
+      <Link to={uteis.urlWhatsapp} target="_blank" rel="noreferrer noopener" class="fixed bottom-4 right-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">
         <a target="_blank" rel="noreferrer noopener" class="fixed bottom-4 right-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-[#25d366]">
           <div class="absolute z-10 top-0 left-0 w-full h-full rounded-full bg-[#25d366] animate-ping"></div>
           <div class="relative z-20">

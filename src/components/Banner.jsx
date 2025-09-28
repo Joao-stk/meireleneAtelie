@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import {uteis} from "../data/uteis"
+
 export default function Banner() {
   return (
     <section class="relative w-full">
       <header class="relative">
         {/*-- BG Image */}
-        <img src="https://sites.ehe.osu.edu/costume/files/2013/12/MG_8042.jpg" alt="" class="absolute -z-10 inline-block h-full w-full object-cover" />
+        <img src={uteis.bannerHome} alt="" class="absolute -z-10 inline-block h-full w-full object-cover" />
         {/* Container */}
         <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
           {/* Heading Content */}
@@ -14,7 +16,7 @@ export default function Banner() {
             <Link to="/contact"class="inline-block rounded-full bg-yellow-950 px-8 py-4 text-center font-bold text-rose-50 transition hover:border-black hover:bg-yellow-900)">Fale Conosco</Link>
           </div>
           <div class="mt-16 max-w-[1040px] mx-auto flex justify-end gap-6">
-            <Link to ="https://wa.me/5516996083425"
+            <Link to ={uteis.urlWhatsapp}
               target="_blank" 
               rel="noopener noreferrer">
               <span class="[&>svg]:h-14 [&>svg]:w-14 [&>svg]:fill-[#fff] hover:scale-110 transition">
@@ -27,7 +29,7 @@ export default function Banner() {
                 </svg>
               </span>
             </Link>
-            <a href="https://www.instagram.com/meireleneatelie" 
+            <a href={uteis.urlInstagram} 
               target="_blank" 
               rel="noopener noreferrer">
               <span class="[&>svg]:h-14 [&>svg]:w-14 [&>svg]:fill-[#ffffff] hover:scale-110 transition">
