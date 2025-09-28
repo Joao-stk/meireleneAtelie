@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { uteis } from "../data/uteis";
+import logo from "../assets/logo.png"
 
 export default function Header() {
   return (

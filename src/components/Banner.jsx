@@ -12,7 +12,7 @@ export default function Banner() {
           {/* Heading Content */}
           <div class="mx-auto max-w-3xl text-center">
             <h1 class="mb-6 pb-4 text-4xl font-bold text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] md:text-6xl">Transformamos memórias em arte sustentável, criando peças únicas que contam histórias.</h1>
-            <p class="mx-auto mb-5 max-w-[528px] text-xl text-[#000000] drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,0.8)] lg:mb-8">Roupas sob medida, feitas para você!</p>
+            <p class="mx-auto mb-5 max-w-[528px] text-xl text-rose-50 drop-shadow-[0_1.2px_1.2px_rgba(0.0.0,0.8)] lg:mb-8">Roupas sob medida, feitas para você!</p>
             <Link to="/contact"class="inline-block rounded-full bg-yellow-950 px-8 py-4 text-center font-bold text-rose-50 transition hover:border-black hover:bg-yellow-900)">Fale Conosco</Link>
           </div>
           <div class="mt-16 max-w-[1040px] mx-auto flex justify-end gap-6">
