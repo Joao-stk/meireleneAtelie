@@ -6,6 +6,9 @@ import Diferenciais from "../components/Diferenciais";
 import Depoimentos from "../components/Depoimentos";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import imgHistoria from "../assets/historiaecuidado.jpeg";
+import imgPersonalizado from "../assets/personalizado.jpeg";
+import imgSentimental from "../assets/sentimental.jpeg";
 
 export default function Home() {
   useEffect(() => {
@@ -39,7 +42,7 @@ export default function Home() {
         </div>
         <div data-aos="fade-left">
           <img
-            src="./src/assets/historiaecuidado.jpeg"
+            src={imgHistoria}
             alt="Artesanal"
             className="rounded-xl shadow-lg w-auto max-h-200"
           />
@@ -49,7 +52,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto my-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div data-aos="fade-right" className="order-2 md:order-1">
           <img
-            src="./src/assets/personalizado.jpeg"
+            src={imgPersonalizado}
             alt="Detalhes"
             className="rounded-xl shadow-lg w-auto max-h-200"
           />
@@ -71,7 +74,7 @@ export default function Home() {
         </div>
         <div data-aos="fade-left">
           <img
-            src="./src/assets/sentimental.jpeg"
+            src={imgSentimental}
             alt="Sentimental"
             className="rounded-xl shadow-lg w-auto max-h-200"
           />
