@@ -3,7 +3,7 @@ export default function About() {
     {
       name: "Meirelene Zaparoli",
       role: "CEO & Fundadora",
-      src: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
+      src: "./src/assets/sobre.jpeg",
       alt: "Foto de Meirelene Zaparoli",
       description: '"Transformamos memórias em arte sustentável, criando peças únicas que contam histórias."'
     }

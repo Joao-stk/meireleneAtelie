@@ -32,16 +32,16 @@ export default function Home() {
       {/* Seções com imagens animadas */}
       <section className="max-w-6xl mx-auto my-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div data-aos="fade-right">
-          <h2 className="text-3xl font-bold mb-4 text-[#654321]">História e Cuidado</h2>
+          <h2 className="text-5xl font-bold mb-4 text-[#654321]">História e Cuidado</h2>
           <p className="text-gray-800">
             Cada peça é feita artesanalmente, carregando memórias e carinho em cada detalhe.
           </p>
         </div>
         <div data-aos="fade-left">
           <img
-            src="https://images.unsplash.com/photo-1620348884092-4df121bf0b2a?auto=format&fit=crop&w=600&q=80"
+            src="./src/assets/historiaecuidado.jpeg"
             alt="Artesanal"
-            className="rounded-xl shadow-lg w-full h-auto"
+            className="rounded-xl shadow-lg w-auto max-h-200"
           />
         </div>
       </section>
@@ -49,13 +49,13 @@ export default function Home() {
       <section className="max-w-6xl mx-auto my-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div data-aos="fade-right" className="order-2 md:order-1">
           <img
-            src="https://images.unsplash.com/photo-1591231446711-0d73d02c0e69?auto=format&fit=crop&w=600&q=80"
+            src="./src/assets/personalizado.jpeg"
             alt="Detalhes"
-            className="rounded-xl shadow-lg w-full h-auto"
+            className="rounded-xl shadow-lg w-auto max-h-200"
           />
         </div>
         <div data-aos="fade-left" className="order-1 md:order-2">
-          <h2 className="text-3xl font-bold mb-4 text-[#654321]">Design Personalizado</h2>
+          <h2 className="text-5xl font-bold mb-4 text-[#654321]">Design Personalizado</h2>
           <p className="text-gray-700">
             Confeccionamos peças únicas de acordo com o gosto e estilo de cada cliente.
           </p>
@@ -64,16 +64,16 @@ export default function Home() {
 
       <section className="max-w-6xl mx-auto my-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div data-aos="fade-right">
-          <h2 className="text-3xl font-bold mb-4 text-[#654321]">Peças com Valor Sentimental</h2>
+          <h2 className="text-5xl font-bold mb-4 text-[#654321]">Peças com Valor Sentimental</h2>
           <p className="text-gray-700">
             Mais do que roupas, cada peça conta uma história e se torna inesquecível.
           </p>
         </div>
         <div data-aos="fade-left">
           <img
-            src="https://images.unsplash.com/photo-1600180758888-f48f8e0b2d65?auto=format&fit=crop&w=600&q=80"
+            src="./src/assets/sentimental.jpeg"
             alt="Sentimental"
-            className="rounded-xl shadow-lg w-full h-auto"
+            className="rounded-xl shadow-lg w-auto max-h-200"
           />
         </div>
       </section>
