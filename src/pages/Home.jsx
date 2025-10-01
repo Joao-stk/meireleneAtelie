@@ -18,19 +18,7 @@ export default function Home() {
   return (
     <div className="relative text-gray-800 bg-rose-50 overflow-hidden">
       {/* Banner Hero */}
-      <div className="relative h-[80vh] flex items-center justify-center">
-        {/* Gradiente suave */}
-        <div
-          className="absolute inset-0 pointer-events-none"
-          style={{
-            background: `radial-gradient(circle at 30% 20%, rgba(245,245,245,0.6) 0%, rgba(84,84,84,0.3) 40%, rgba(101,67,33,0.4) 80%)`,
-          }}
-        ></div>
-
-        <div className="relative z-10 w-full px-6 text-center">
-          <Banner overlayOpacity={0} textColor="#F5F5F5" />
-        </div>
-      </div>
+      <Banner />
 
       {/* Seções com imagens animadas */}
       <section className="max-w-6xl mx-auto my-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -44,7 +32,7 @@ export default function Home() {
           <img
             src={imgHistoria}
             alt="Artesanal"
-            className="rounded-xl shadow-lg w-auto max-h-200"
+            className="rounded-xl shadow-lg w-full max-h-[400px] object-cover"
           />
         </div>
       </section>
@@ -54,7 +42,7 @@ export default function Home() {
           <img
             src={imgPersonalizado}
             alt="Detalhes"
-            className="rounded-xl shadow-lg w-auto max-h-200"
+            className="rounded-xl shadow-lg w-full max-h-[400px] object-cover"
           />
         </div>
         <div data-aos="fade-left" className="order-1 md:order-2">
@@ -76,7 +64,7 @@ export default function Home() {
           <img
             src={imgSentimental}
             alt="Sentimental"
-            className="rounded-xl shadow-lg w-auto max-h-200"
+            className="rounded-xl shadow-lg w-full max-h-[400px] object-cover"
           />
         </div>
       </section>
