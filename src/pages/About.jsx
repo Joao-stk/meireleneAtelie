@@ -11,6 +11,7 @@ export default function About() {
 
   return (
     <div className="00 min-h-screen py-12">
+      
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8">
           {team.map((member, index) => (
