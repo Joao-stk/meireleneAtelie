@@ -4,7 +4,7 @@ import banner from "../assets/banner.jpeg";
 export default function Banner() {
   return (
     <div
-      className="relative w-full h-[70vh] md:h-[90vh] bg-cover bg-center"
+      className="relative w-full h-screen md:h-[80vh] min-h-[400px] bg-cover bg-center"
       style={{
         backgroundImage: `url(${banner})`,
       }}
