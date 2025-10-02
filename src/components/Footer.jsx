@@ -26,11 +26,6 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>
               <Link to="/about" className="hover:underline text-yellow-950">
-                Produtos
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="hover:underline text-yellow-950">
                 Sobre
               </Link>
             </li>
